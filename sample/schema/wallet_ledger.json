@@ -1,0 +1,42 @@
+[
+  {
+    "name": "entry_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "entry_seq",
+    "type": "INTEGER",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "account_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "entry_time",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "entry_type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "amount",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "payment_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "bet_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

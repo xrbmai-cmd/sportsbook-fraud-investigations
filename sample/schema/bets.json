@@ -1,0 +1,62 @@
+[
+  {
+    "name": "bet_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "account_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "session_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "event_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "market",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "selection",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "odds",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "stake",
+    "type": "NUMERIC",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "placed_at",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "status",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "settled_at",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "payout",
+    "type": "NUMERIC",
+    "mode": "NULLABLE"
+  }
+]

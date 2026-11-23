@@ -1,0 +1,52 @@
+[
+  {
+    "name": "access_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "account_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "event_time",
+    "type": "TIMESTAMP",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "event_type",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "success",
+    "type": "BOOLEAN",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "session_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "device_id",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "ip_token",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "ip_country",
+    "type": "STRING",
+    "mode": "REQUIRED"
+  },
+  {
+    "name": "instrument_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
